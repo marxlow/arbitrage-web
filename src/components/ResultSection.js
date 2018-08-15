@@ -25,18 +25,14 @@ class ResultSection extends Component {
             <h1>{`Make ${(capitalAmount * profitRate).toFixed(2)} ${capitalCurrency}`}</h1>
             <h3 className="mt-4">In 3 transactions, with</h3>
           </div>
-        </div>
-        <div className="row justify-content-center mt-4">
-          <div className="d-flex col-10">
+          <div className="row justify-content-center mt-4">
             {ARBITRAGE_CARDS.map((card, index) => {
               return (
-                <div className="px-4 col-4">
-                  <CircularCard
-                    key={index}
-                    name={card.name}
-                    image={card.image}
-                  />
-                </div>
+                <CircularCard
+                  key={index}
+                  name={card.name}
+                  image={card.image}
+                />
               );
             })}
           </div>

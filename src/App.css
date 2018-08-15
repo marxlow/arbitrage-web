@@ -35,10 +35,16 @@
   background-color: #A23E48;
 }
 
-.circular-img {
+.circular-wrapper-med {
   border-radius: 50%;
   height: 10rem;
   width: 10rem;
+}
+
+.circular-wrapper-sm {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
 }
 
 @keyframes App-logo-spin {

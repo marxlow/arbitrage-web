@@ -12,11 +12,11 @@ class CircularCard extends Component {
   render() {
     const { name, image } = this.props;
     return (
-      <div>
-        <div className="">
-          <img src={image} className="circular-img" />
+      <div className="pt-4 col-md-4">
+        <div>
+          <img src={image} className="circular-wrapper-med" />
         </div>
-        <h4 className="text-white">{name}</h4>
+        <h4 className="text-white mt-2">{name}</h4>
       </div>
     )
   }
