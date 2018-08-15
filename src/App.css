@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.bg-primary {
+  background-color: #6699CC !important;
+}
+
+.bg-secondary {
+  background-color: #FFF275;
+}
+
+.bg-tertiary {
+  background-color: #FF8C42;
+}
+
+.bg-highlight {
+  background-color: #A23E48;
+}
+
+.circular-img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
